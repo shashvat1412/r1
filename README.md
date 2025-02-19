@@ -66,9 +66,6 @@ print(parking_lot.is_full())
 ## Testing
 
 Run all test cases (included in cr1.py):
-bash
-Copy
-
 python cr1.py
 
 ## Sample Tests:

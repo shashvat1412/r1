@@ -23,7 +23,8 @@ A multi-floor parking lot system with thread-safe operations, vehicle-specific s
    ```bash
    git clone https://github.com/shashvat1412/parking-lot-system.git
 
-#Usage
+Usage
+
 # Initialize a parking lot with 3 floors and 10 spots per floor
 parking_lot = ParkingLot(num_floors=3, spots_per_floor=10)
 

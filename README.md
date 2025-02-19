@@ -43,27 +43,27 @@ parking_lot.leave_vehicle("KA-01-1234")
 # Check if the parking lot is full
 print(parking_lot.is_full())
 
-Design Highlights
+## Design Highlights
 
-    OOP Principles:
+    ## OOP Principles:
 
         Vehicle class hierarchy for extensibility.
 
         Floor class encapsulates spot management (heap + set for efficiency).
 
-    Concurrency:
+    ## Concurrency:
 
         Per-floor locks allow parallel operations across floors.
 
         Global lock protects the vehicle_map for thread-safe lookups.
 
-    Efficiency:
+   ## Efficiency:
 
         Min-heap ensures nearest-spot-first allocation.
 
         Set operations for O(1) membership checks.
 
-Testing
+## Testing
 
 Run all test cases (included in cr1.py):
 bash
@@ -71,7 +71,7 @@ Copy
 
 python cr1.py
 
-Sample Tests:
+## Sample Tests:
 
     test_park_truck(): Validates consecutive spot allocation.
 
@@ -79,7 +79,7 @@ Sample Tests:
 
     stress_test(): Simulates 900 vehicles to validate scalability.
 
-Contribution
+## Contribution
 
 Contributions are welcome! Open an issue or PR for:
 
